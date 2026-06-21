@@ -1,0 +1,56 @@
+{
+  "name": "react-flow-edge-lapping",
+  "version": "0.1.0",
+  "description": "Lapping (hop) edges for React Flow / @xyflow/react — draws little bridge arcs where wires cross, like a circuit diagram.",
+  "keywords": [
+    "react-flow",
+    "reactflow",
+    "xyflow",
+    "edge",
+    "hop",
+    "lapping",
+    "circuit",
+    "diagram",
+    "svg"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/azim/edge-lapping.git",
+    "directory": "packages/react-flow-edge-lapping"
+  },
+  "type": "module",
+  "sideEffects": false,
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "prepublishOnly": "tsup"
+  },
+  "peerDependencies": {
+    "@xyflow/react": ">=12",
+    "react": ">=18",
+    "react-dom": ">=18"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@xyflow/react": "^12.11.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "tsup": "^8.3.5",
+    "typescript": "^5.8.3"
+  }
+}

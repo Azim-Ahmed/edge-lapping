@@ -33,7 +33,7 @@ import {
   GitBranch,
 } from "lucide-react";
 import { SITE } from "@/lib/site";
-import { HopEdge } from "./HopEdge";
+import { HopEdge } from "react-flow-edge-lapping";
 
 /* ─────────────────────────────────────────
    Icon lookup
