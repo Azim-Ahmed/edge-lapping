@@ -106,22 +106,6 @@ const edges = [
 | `HopEdgeData`               | Per-edge `data` override type.                               |
 | `buildPolyline`, `polylineToPath`, `branchXFor`, `getHandlePos`, `computeHops` | Pure geometry helpers for advanced use. |
 
-## Development & publishing (maintainers)
-
-This package lives in a bun workspace; the repo root app is the live demo.
-
-```bash
-# from packages/react-flow-edge-overlapping
-bun run build          # emits dist/ (ESM + CJS + .d.ts) via tsup
-npm pack --dry-run     # preview the exact files that will be published
-
-# publish to the public npm registry (first publish of a non-scoped package)
-npm login
-npm publish --access public --otp=YOUR_6_DIGIT_CODE
-```
-
-Bump the version with `npm version patch|minor|major` before publishing. The
-`prepublishOnly` script rebuilds `dist/` automatically on `npm publish`.
 
 ## License
 
