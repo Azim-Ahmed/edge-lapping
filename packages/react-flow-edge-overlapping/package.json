@@ -16,7 +16,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/azim/edge-overlapping.git",
+    "url": "git+https://github.com/azim-ahmed/edge-overlapping.git",
     "directory": "packages/react-flow-edge-overlapping"
   },
   "type": "module",
