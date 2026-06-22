@@ -1,6 +1,6 @@
 {
   "name": "react-flow-edge-overlapping",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Overlapping (hop) edges for React Flow / @xyflow/react — draws little bridge arcs where wires cross, like a circuit diagram.",
   "keywords": [
     "react-flow",
